@@ -1,0 +1,23 @@
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.div1{
+  background-color: aqua;
+  margin-top: 3px;
+  margin-left: 10px;
+   margin-right: 10px;
+}
+
+.div2{
+   background-color: blanchedalmond;
+   margin-top: 3px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+
+
+
