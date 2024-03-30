@@ -8,6 +8,8 @@ class Data extends Component{
             age:55,
             city:"Nashik"
         }
+
+        
     }
 
    
