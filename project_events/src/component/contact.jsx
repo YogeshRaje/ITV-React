@@ -9,7 +9,7 @@ export default class Contact extends Component{
     }
 
     handleChange = e => {
-        console.log(e.target.value)
+        // console.log(e)
         this.setState({value : e.target.value})
     }
 
@@ -17,9 +17,10 @@ export default class Contact extends Component{
         return(
             <div className="container">
                 <form>
-                    <input type="text" value={this.state.value} onChange={this.handleChange}
+                    <input type ="text" value={this.state.value} onChange={this.handleChange}
                     className="form-control" />
                 </form>
+                <h1>{this.state.value}</h1>
             </div>
         )
     }

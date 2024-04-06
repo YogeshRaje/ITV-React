@@ -1,3 +1,8 @@
+import { useState } from "react"
+
 export default function About(){
-    return <h1>About Page</h1>
+    const [color,setColor] = useState("Red")
+    return <>
+    <h1 className="text-danger">About Page {color}</h1>
+    </>
 }
