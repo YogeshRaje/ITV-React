@@ -8,6 +8,7 @@ import State from "./component/state";
 import { State1 } from "./component/state";
 import UpdateState from "./component/stateupdate";
 import UseEffect from "./component/useeffect1";
+import StateUpdate1 from "./component/stateupdate1";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 // import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.css"
 
@@ -23,6 +24,7 @@ function App(){
          <Route path="state1" element={<State1 />} />
          <Route path="stateupdate" element={<UpdateState />} />
          <Route path="useeffect" element={<UseEffect />} />
+         <Route path="stateupdate1" element={<StateUpdate1 />} /> 
       </Route>
      </Routes> 
     </BrowserRouter>

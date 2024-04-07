@@ -24,6 +24,9 @@ const Layout = () => {
                     <Link to="/stateupdate">StateUpdate</Link>
                 </li>
                 <li>
+                    <Link to="/stateupdate1">StateUpdate</Link>
+                </li>
+                <li>
                     <Link to="/useeffect">UseEffect</Link>
                 </li>
             </ul>
