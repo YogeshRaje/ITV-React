@@ -13,7 +13,7 @@ class Multiple extends Component{
         console.log(this.state)
     }
 
-    render(){
+    render(){ 
         return(
             <>
                <form>
@@ -24,6 +24,7 @@ class Multiple extends Component{
                 <label>
                     Age:<input type="number" name="age" value={this.state.age} onChange={this.handle} />
                 </label>
+                <br/><br/>
                </form>
             </>
         )
